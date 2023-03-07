@@ -15,11 +15,14 @@ public class ModelSelectPage extends BasePage {
   }
 
   private WebElement getModelSelectNameplateContainer() {
-    return until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".fc-nameplates__nameplateContainer")));
+  return until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".fc-nameplates__nameplateContainer")));
+
+
   }
 
   public List<WebElement> getAllNameplates() {
     return until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector(".fc-nameplates__nameplateContainer .fc-cta__cta--size-primary")));
+
   }
 
   public boolean isInitialized() {

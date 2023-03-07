@@ -7,6 +7,7 @@ import com.connect_group.tests.BaseTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class FinanceCalculatorTest extends BaseTest {
@@ -30,4 +31,5 @@ class FinanceCalculatorTest extends BaseTest {
   }
 
   // TODO: Complete the each of the tests under the "Tasks to Complete" section of the README.md
+
 }
